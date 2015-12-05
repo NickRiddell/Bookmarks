@@ -1,0 +1,12 @@
+<h5> Bookmark url </h5>
+<p><%= @bookmark['url'] %></p>
+<h5> Bookmark Genre </h5>
+<p><%= @bookmark['genre'] %></p>
+<h5> Bookmark Information </h5>
+<p><%= @bookmark['info'] %></p>
+<a href="/bookmarks/<%= @bookmark['id'] %>/edit">Edit bookmark</a>
+<form action="/bookmarks/<%= @bookmark['id'] %>/delete" method='post'>
+
+<input type='submit' value='Delete Bookmark'>
+
+</form>
