@@ -6,6 +6,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
 a {
   text-decoration: none;
 }
@@ -39,3 +45,73 @@ h2 {
   margin: -5px 0 0;
   font-weight: normal;
 }
+
+/*******************************************
+NAVIGATION
+********************************************/
+
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+/*******************************************
+COLOURS
+********************************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #e60000;
+  border-color: #800000;
+}
+
+/* nav background */
+nav {
+  background: #800000;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #800000;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #e60000;
+}
+
+
+
+
+
